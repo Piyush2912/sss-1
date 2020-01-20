@@ -1,0 +1,8 @@
+Merge branch 'master' of https://github.com/vaibhavbisht06/gtbit
+
+# Conflicts:
+#	app/src/main/AndroidManifest.xml
+#	app/src/main/java/com/devsebastian/gtbit/MainActivity.java
+#	app/src/main/res/layout/activity_main.xml
+#	app/src/main/res/values/strings.xml
+#	app/src/main/res/values/styles.xml

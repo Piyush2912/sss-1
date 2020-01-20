@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme"
+            app:title="Home"
+            app:titleTextColor="@android:color/white" />
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:paddingBottom="100dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:scaleType="centerCrop"
+                    android:layout_height="220dp"
+                    android:src="@mipmap/adidas" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/feed_recycler_view"
+                    android:nestedScrollingEnabled="false"
+                    />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_gravity="bottom"
+        android:elevation="12dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/park"
+                android:layout_height="match_parent"
+                android:padding="18dp"
+                android:foreground="?attr/selectableItemBackground"
+                android:id="@+id/save_location_btn"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/car_parking_lights"
+                android:layout_height="match_parent"
+                android:padding="18dp"
+                android:foreground="?attr/selectableItemBackground"
+
+                android:id="@+id/find_last_spot"
+                android:layout_weight="1" />
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:src="@drawable/card"
+                android:foreground="?attr/selectableItemBackground"
+
+                android:layout_height="match_parent"
+                android:padding="18dp"
+                android:layout_weight="1" />
+
+            <ImageView
+                android:id="@+id/profile"
+                android:layout_width="0dp"
+                android:src="@drawable/account"
+                android:layout_height="match_parent"
+                android:foreground="?attr/selectableItemBackground"
+                android:padding="18dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_gravity="bottom|center"
+        android:tint="@android:color/white"
+        android:layout_margin="28dp"
+        android:src="@drawable/barcode_scan" />
+
+</FrameLayout>

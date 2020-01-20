@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "312993926658",
+    "firebase_url": "https://hackgtbit-8df94.firebaseio.com",
+    "project_id": "hackgtbit-8df94",
+    "storage_bucket": "hackgtbit-8df94.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312993926658:android:f297d43970c1a940d2e11b",
+        "android_client_info": {
+          "package_name": "com.devsebastian.gtbit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312993926658-bv77q59jbe6ch4jj6ke3fa45sju6nn84.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.devsebastian.gtbit",
+            "certificate_hash": "3025cb66a45b50407315dc43fd5c31f23408b6ad"
+          }
+        },
+        {
+          "client_id": "312993926658-ri9gi6cgq7t15itefei59nteetgjctfv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk786qNI4aU_bKhqEtrjOANCZzMpSePJ4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "312993926658-ri9gi6cgq7t15itefei59nteetgjctfv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
