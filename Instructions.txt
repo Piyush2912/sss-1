@@ -1,0 +1,9 @@
+One needs to follow these steps to execute this android app:
+
+Step1-Clone or Download the zip file of app from github at:https://github.com/Piyush2912/sss-1
+step2-Extract that zip file and paste it on desktop.
+step3-Open Android Studio and from File option select open browse through the desktop to sss-1 file.
+step4-Open it up and then execute it on your device or either on default mobile view of Android Studio.
+
+Done!
+Enjoy!!
